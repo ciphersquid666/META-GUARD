@@ -1,8 +1,3 @@
-Ecco il README.md aggiornato con emoji a tema per renderlo più accattivante e leggibile su GitHub:
-
-
----
-
 # META-GUARD 🔍🛡️
 
 **META-GUARD** is a powerful Python tool for extracting metadata, analyzing security headers, and detecting sensitive data from web pages.  
