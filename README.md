@@ -33,7 +33,7 @@ Enable verbose mode? (yes/no): yes
 
 ---
 
-⚙️ Installation
+## ⚙️ Installation
 
 1. 🔗 Clone the repository:
 
@@ -51,7 +51,7 @@ pip install -r requirements.txt
 
 ---
 
-🚀 Usage
+## 🚀 Usage
 
 Run the tool:
 
@@ -62,7 +62,7 @@ You'll be prompted to input URLs and whether to enable verbose mode.
 
 ---
 
-📤 Output
+## 📤 Output
 
 metadata.json – full structured metadata output
 
@@ -72,7 +72,7 @@ CLI summary – concise or verbose report with extracted data
 
 ---
 
-🧰 Requirements
+## 🧰 Requirements
 
 requests
 
@@ -90,7 +90,7 @@ pip install -r requirements.txt
 
 ---
 
-⚠️ Disclaimer
+# ⚠️ Disclaimer
 
 This tool is intended for educational and ethical use only.
 Do not use it on websites you do not own or have permission to scan. ⚖️
