@@ -9,14 +9,12 @@ Developed by [Cipher Squid](https://github.com/ciphersquid666) — use it respon
 
 ## ✨ Features
 
-- 📄 Extracts metadata: title, description, Open Graph, Twitter Cards, etc.
-- ⚡ Checks SSL certificate and HTTP status
-- 🔐 Analyzes security headers (CSP, HSTS, etc.)
-- 🧠 Detects structured data (`ld+json`)
-- 🕵️ Scans for sensitive data: API keys, tokens, secrets
-- 🖼️ Collects headings, links, images
-- 📁 Saves everything to a `metadata.json` file
-- 🛠️ Verbose mode for detailed inspection
+- 📄 Metadata extraction (title, description, OG, Twitter)
+- 🔐 Security headers check
+- 🕵️ Sensitive data detection (API keys, tokens)
+- 🧠 Structured data parsing
+- ⚡ SSL check & page load timing
+- 📁 Output to `metadata.json`
 
 ---
 
@@ -30,87 +28,35 @@ Developed by [Cipher Squid](https://github.com/ciphersquid666) — use it respon
 Enter the URLs of the web pages (comma separated): https://example.com
 Enable verbose mode? (yes/no): yes
 
+
 ---
 
-## ⚙️ Installation
-
-1. 🔗 Clone the repository:
-
-
+⚙️ Install
 
 git clone https://github.com/ciphersquid666/META-GUARD.git
 cd META-GUARD
-
-2. 📦 Install dependencies:
-
-
-
 pip install -r requirements.txt
 
 
 ---
 
-## 🚀 Usage
-
-Run the tool:
+🚀 Usage
 
 python MetaGuard.py
 
-You'll be prompted to input URLs and whether to enable verbose mode.
+
+---
+
+📜 License
+
+MIT
 
 
 ---
 
-## 📤 Output
+👤 Author
 
-metadata.json – full structured metadata output
-
-CLI summary – concise or verbose report with extracted data
+@ciphersquid666
 
 
-
----
-
-## 🧰 Requirements
-
-requests
-
-beautifulsoup4
-
-tabulate
-
-termcolor
-
-
-Install them all:
-
-pip install -r requirements.txt
-
-
----
-
-# ⚠️ Disclaimer
-
-This tool is intended for educational and ethical use only.
-Do not use it on websites you do not own or have permission to scan. ⚖️
-
-
----
-
-## 📜 License
-
-This project is licensed under the MIT License.
-
-
----
-
-## 👤 Author
-
-Cipher Squid
-GitHub: @ciphersquid666
-
-
----
-
-Fammi sapere se vuoi una versione in italiano, o se vuoi aggiungere badge di stato, workflow CI/CD, o un logo!
 
