@@ -9,12 +9,14 @@ Developed by [Cipher Squid](https://github.com/ciphersquid666) — use it respon
 
 ## ✨ Features
 
-- 📄 Metadata extraction (title, description, OG, Twitter)
-- 🔐 Security headers check
-- 🕵️ Sensitive data detection (API keys, tokens)
-- 🧠 Structured data parsing
-- ⚡ SSL check & page load timing
-- 📁 Output to `metadata.json`
+- 📄 Extracts metadata: title, description, Open Graph, Twitter Cards, etc.  
+- ⚡ Checks SSL certificate and HTTP status  
+- 🔐 Analyzes security headers (CSP, HSTS, etc.)  
+- 🧠 Detects structured data (`ld+json`)  
+- 🕵️ Scans for sensitive data: API keys, tokens, secrets  
+- 🖼️ Collects headings, links, images  
+- 📁 Saves everything to a `metadata.json` file  
+- 🛠️ Verbose mode for detailed inspection  
 
 ---
 
@@ -31,10 +33,19 @@ Enable verbose mode? (yes/no): yes
 
 ---
 
-⚙️ Install
+⚙️ Installation
+
+1. 🔗 Clone the repository:
+
+
 
 git clone https://github.com/ciphersquid666/META-GUARD.git
 cd META-GUARD
+
+2. 📦 Install dependencies:
+
+
+
 pip install -r requirements.txt
 
 
@@ -42,21 +53,60 @@ pip install -r requirements.txt
 
 🚀 Usage
 
+Run the tool:
+
 python MetaGuard.py
+
+You'll be prompted to input URLs and whether to enable verbose mode.
+
+
+---
+
+📤 Output
+
+metadata.json – full structured metadata output
+
+CLI summary – concise or verbose report with extracted data
+
+
+
+---
+
+🧰 Requirements
+
+requests
+
+beautifulsoup4
+
+tabulate
+
+termcolor
+
+
+Install them all:
+
+pip install -r requirements.txt
+
+
+---
+
+⚠️ Disclaimer
+
+This tool is intended for educational and ethical use only.
+Do not use it on websites you do not own or have permission to scan. ⚖️
 
 
 ---
 
 📜 License
 
-MIT
+This project is licensed under the MIT License.
 
 
 ---
 
 👤 Author
 
-@ciphersquid666
-
-
+Cipher Squid
+GitHub: @ciphersquid666
 
