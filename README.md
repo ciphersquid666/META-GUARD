@@ -28,7 +28,6 @@ Developed by [Cipher Squid](https://github.com/ciphersquid666) — use it respon
 Enter the URLs of the web pages (comma separated): https://example.com
 Enable verbose mode? (yes/no): yes
 
-
 ---
 
 ## ⚙️ Installation
