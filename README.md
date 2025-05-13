@@ -1,6 +1,6 @@
 # META-GUARD 🔍🛡️
 
-![META-GUARD Banner](https://i.ibb.co/ccmc0ygm/foto-no-exif-1.png)
+![META-GUARD Banner](https://miro.medium.com/v2/resize:fit:1400/1*OlyA47-o7YINcaYzLDe9yQ.gif)
 
 **META-GUARD** is a powerful Python tool for extracting metadata, analyzing security headers, and detecting sensitive data from web pages.  
 Developed by [Cipher Squid](https://github.com/ciphersquid666) — use it responsibly! ☠️
